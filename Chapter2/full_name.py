@@ -1,30 +1,41 @@
-# first_name = "luis"
-# last_name = "marques"
+# Store the first and last name as separate string variables
+first_name = "luis"
+last_name = "marques"
 
-# full_name = f"{first_name} {last_name}"
-# print(full_name)
+# Use an f-string to combine the two names into a single full name (with a space between)
+full_name = f"{first_name} {last_name}"
+print(full_name)
 
-# print(f"Hello, {full_name.title()}!")
+# .title() capitalises the first letter of each word: "luis marques" -> "Luis Marques"
+print(f"Hello, {full_name.title()}!")
 
-# full_name = f"{first_name} {last_name}"
-# message = f"Hello, {full_name.title()}!"
-# print(message)
+# Same as above, but storing the greeting in a variable first, then printing it
+full_name = f"{first_name} {last_name}"
+message = f"Hello, {full_name.title()}!"
+print(message)
 
 
-# print("Python")
-# print("\tPython\n")
+# Plain print with no special characters
+print("Python")
+# \t inserts a tab (indent); \n inserts a newline (line break after "Python")
+print("\tPython\n")
 
-# print("Languages:\nPython\nC\nJavaScript")
+# \n breaks the text onto a new line each time, creating a vertical list
+print("Languages:\nPython\nC\nJavaScript")
 
-# print("Languages:\n\tPython\n\tC\n\tJavaScript")
+# Combine \n (newline) and \t (tab) to create an indented list
+print("Languages:\n\tPython\n\tC\n\tJavaScript")
 
-# favourite_language = ' python .'
-# print(favourite_language)
+# This string has a leading space and a trailing space + period: ' python .'
+favourite_language = ' python .'
+print(favourite_language)
 
-# print(favourite_language.rstrip(" ."))
-# print(favourite_language.lstrip())
+# .rstrip(" .") removes spaces and periods from the RIGHT-hand end -> ' python'
+print(favourite_language.rstrip(" ."))
+# .lstrip() removes whitespace from the LEFT-hand end -> 'python .'
+print(favourite_language.lstrip())
 
+# .removeprefix() strips the given text from the START of the string
 nostarch_url = 'https://nostarch.com'
 nostarch_url = nostarch_url = nostarch_url.removeprefix('https://')
 print(nostarch_url)
-
