@@ -7,5 +7,5 @@ print(message)
 # # The string is wrapped in SINGLE quotes (' '), but "Python's" also contains
 # # a single quote (the apostrophe). Python sees the apostrophe as the END of
 # # the string, then gets confused by the leftover text "s strengths...".
-message = 'One of Python's strengths is its diverse community.'
-print(message)
+# message = 'One of Python's strengths is its diverse community.'
+# print(message)
