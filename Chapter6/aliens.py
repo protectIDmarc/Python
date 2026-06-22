@@ -4,6 +4,12 @@ alien_2 = {'color': 'red', 'points': 15}
 
 # aliens = [alien_0, alien_1, alien_2]
 
+# for alien in aliens:
+#     print(alien)
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 # Make an empty list for storing aliens.
 aliens = []
 # Make 30 green aliens.
@@ -17,6 +23,5 @@ for alien in aliens[:5]:
 # Show how many aliens have been created.
 print(f"Total number of aliens: {len(aliens)}")
 
-# for alien in aliens:
-#     print(alien)
+
 
